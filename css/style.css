@@ -12407,3 +12407,217 @@ html:not(.mobile) .owl-animate-fadeInDown{
 .works-grid.grid-intro-2 .work-item .work-descr{
     font-size: 16px;
 }
+
+/* ==========================================================================
+   OBMASK SOLUTIONS CUSTOM EXECUTIVE STYLING & BRAND THEME
+   ========================================================================== */
+
+:root {
+    --obmask-navy: #0B132B;
+    --obmask-navy-light: #1C2541;
+    --obmask-amber: #D4AF37;
+    --obmask-amber-hover: #F39C12;
+    --obmask-gold: #B8860B;
+    --obmask-slate: #3A506B;
+}
+
+/* Accent Badges */
+.obmask-badge {
+    display: inline-block;
+    padding: 6px 18px;
+    background: rgba(212, 175, 55, 0.15);
+    color: #D4AF37 !important;
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.obmask-badge-dark {
+    background: rgba(11, 19, 43, 0.08);
+    color: #0B132B !important;
+    border: 1px solid rgba(11, 19, 43, 0.2);
+}
+
+.obmask-pill-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.obmask-pill-contracting {
+    background: rgba(212, 175, 55, 0.2);
+    color: #D4AF37;
+    border: 1px solid rgba(212, 175, 55, 0.5);
+}
+
+.obmask-pill-merchandise {
+    background: rgba(58, 80, 107, 0.2);
+    color: #5bc0be;
+    border: 1px solid rgba(91, 192, 190, 0.5);
+}
+
+.obmask-pill-ict {
+    background: rgba(46, 134, 222, 0.2);
+    color: #54a0ff;
+    border: 1px solid rgba(84, 160, 255, 0.5);
+}
+
+/* Executive Gradient Buttons */
+.btn-mod.btn-amber {
+    background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+    color: #0B132B !important;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.35);
+    transition: all 0.3s ease;
+}
+
+.btn-mod.btn-amber:hover {
+    background: linear-gradient(135deg, #F39C12 0%, #D4AF37 100%);
+    color: #000000 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(212, 175, 55, 0.5);
+}
+
+/* Stat Cards */
+.obmask-stat-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 35px 25px;
+    text-center: center;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.obmask-stat-card:hover {
+    transform: translateY(-6px);
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(212, 175, 55, 0.5);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.obmask-stat-number {
+    font-size: 44px;
+    font-weight: 800;
+    color: #D4AF37;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.obmask-stat-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+}
+
+/* Service Pillar Card */
+.obmask-service-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px 30px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    transition: all 0.35s ease;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.obmask-service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #0B132B, #D4AF37);
+    transition: all 0.35s ease;
+}
+
+.obmask-service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(11, 19, 43, 0.12);
+    border-color: rgba(212, 175, 55, 0.4);
+}
+
+.obmask-service-card:hover::before {
+    height: 6px;
+    background: linear-gradient(90deg, #D4AF37, #F39C12);
+}
+
+.obmask-service-num {
+    font-size: 16px;
+    font-weight: 800;
+    color: #D4AF37;
+    background: rgba(212, 175, 55, 0.12);
+    padding: 6px 14px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.obmask-service-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0B132B;
+    margin-bottom: 15px;
+}
+
+.obmask-service-text {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Feature List checkmarks */
+.obmask-feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.obmask-feature-list li {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #444;
+}
+
+.obmask-feature-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #D4AF37;
+    font-weight: bold;
+}
+
+/* Responsive tweaks */
+.text-white-80 {
+    color: rgba(255, 255, 255, 0.88) !important;
+}
+
+@media (max-width: 767px) {
+    .obmask-stat-number {
+        font-size: 34px;
+    }
+    .obmask-service-card {
+        padding: 30px 20px;
+    }
+}
